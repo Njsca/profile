@@ -1,0 +1,134 @@
+body {
+  background-color: #E9E4D3;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #100F0F;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  color: #0F3D3E;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  color: #0F3D3E;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #0F3D3E;
+  color: #F1F1F1;
+  font-size: 16px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+button a:visited {
+  color: #F1F1F1;
+}
+
+button:hover {
+  background-color: #100F0F;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.avatar {
+  border-radius: 70px;
+  width: 140px;
+}
+
+.icon {
+  color: #81667A;
+  font-size: 28px;
+}
+
+.fa-solid {
+  color: #81667A;
+}
+
+.icon:hover {
+  color: #31087B;
+}
+
+.job-description {
+  letter-spacing: 3px;
+  text-align: right;
+  word-spacing: 0.75em;
+  padding-left: 20px;
+  float: right;
+  margin-top: 95px;
+}
+
+.card {
+  background-color: #F1F1F1;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 15px;
+  justify-content: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.info-card {
+  text-align: center;
+}
+
+.links-card {
+  text-align: center;
+}
+
+#links-list {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  margin-left: 207px;
+}
+
+#links-list li {
+  float: left;
+}
+
+#links-list li a {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
