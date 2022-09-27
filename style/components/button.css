@@ -1,0 +1,19 @@
+
+button {
+  background-color: #068790;
+  color: #F4EBE8;
+  font-size: 16px;
+  padding: 15px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+}
+
+button a:visited {
+  color: #F4EBE8;
+}
+
+button:hover {
+  background-color: rgba(6, 135, 144, 0.8);
+  font-weight: bolder;
+}
